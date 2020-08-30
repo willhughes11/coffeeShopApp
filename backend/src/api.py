@@ -5,7 +5,7 @@ import json
 from flask_cors import CORS
 
 from .database.models import db_drop_and_create_all, setup_db, Drink
-from .auth.auth import AuthError, requires_auth
+from .auth.auth import AuthError, requires_auth, get_token_auth_header, check_permissions, verify_decode_jwt
 
 app = Flask(__name__)
 setup_db(app)
@@ -35,14 +35,15 @@ def get_drinks_detail(jwt):
 
     return jsonify({
         'success': True,
-        'drinks': [drink.long() for drink in drinks]
+        'drinks': [drink.long() for drink in drinks],
+        'check': verify_decode_jwt(get_token_auth_header())
     })
 
 @app.route('/drinks', methods=['POST'])
 @requires_auth('post:drinks')
 def create_drinks(jwt):
     data = request.get_json()
-    print(data)
+    
     if 'title' and 'recipe' not in data:
         abort(422)
     
@@ -127,7 +128,15 @@ def unauthorized(error):
 @app.errorhandler(422)
 def unprocessable(error):
     return jsonify({
-        "success": False, 
-        "error": 422,
-        "message": "unprocessable"
+        'success': False, 
+        'error': 422,
+        'message': 'unprocessable'
     }), 422
+
+@app.errorhandler(AuthError)
+def auth_error(error):
+    return jsonify({
+        'success': False,
+        'error': 401,
+        'message': 'authorization error'
+    }),401
