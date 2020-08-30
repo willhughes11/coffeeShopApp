@@ -137,6 +137,12 @@ def unprocessable(error):
 def auth_error(error):
     return jsonify({
         'success': False,
+<<<<<<< HEAD
         'error': 401,
         'message': 'authorization error'
     }),401
+=======
+        'error': AuthError,
+        'message': 'authorization error'
+    })
+>>>>>>> 3b5c1cf358b9908994672fcfc82b76d44d869574

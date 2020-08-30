@@ -107,7 +107,11 @@
 					"response": []
 				},
 				{
+<<<<<<< HEAD
 					"name": "/drinks/4",
+=======
+					"name": "/drinks/1",
+>>>>>>> 3b5c1cf358b9908994672fcfc82b76d44d869574
 					"event": [
 						{
 							"listen": "test",
@@ -126,20 +130,32 @@
 						"method": "PATCH",
 						"header": [],
 						"url": {
+<<<<<<< HEAD
 							"raw": "{{host}}/drinks/4",
+=======
+							"raw": "{{host}}/drinks/1",
+>>>>>>> 3b5c1cf358b9908994672fcfc82b76d44d869574
 							"host": [
 								"{{host}}"
 							],
 							"path": [
 								"drinks",
+<<<<<<< HEAD
 								"4"
+=======
+								"1"
+>>>>>>> 3b5c1cf358b9908994672fcfc82b76d44d869574
 							]
 						}
 					},
 					"response": []
 				},
 				{
+<<<<<<< HEAD
 					"name": "/drinks/4",
+=======
+					"name": "/drinks/1",
+>>>>>>> 3b5c1cf358b9908994672fcfc82b76d44d869574
 					"event": [
 						{
 							"listen": "test",
@@ -158,13 +174,21 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
+<<<<<<< HEAD
 							"raw": "{{host}}/drinks/4",
+=======
+							"raw": "{{host}}/drinks/1",
+>>>>>>> 3b5c1cf358b9908994672fcfc82b76d44d869574
 							"host": [
 								"{{host}}"
 							],
 							"path": [
 								"drinks",
+<<<<<<< HEAD
 								"4"
+=======
+								"1"
+>>>>>>> 3b5c1cf358b9908994672fcfc82b76d44d869574
 							]
 						}
 					},
@@ -285,7 +309,11 @@
 					"response": []
 				},
 				{
+<<<<<<< HEAD
 					"name": "/drinks/4",
+=======
+					"name": "/drinks/1",
+>>>>>>> 3b5c1cf358b9908994672fcfc82b76d44d869574
 					"event": [
 						{
 							"listen": "test",
@@ -304,20 +332,32 @@
 						"method": "PATCH",
 						"header": [],
 						"url": {
+<<<<<<< HEAD
 							"raw": "{{host}}/drinks/4",
+=======
+							"raw": "{{host}}/drinks/1",
+>>>>>>> 3b5c1cf358b9908994672fcfc82b76d44d869574
 							"host": [
 								"{{host}}"
 							],
 							"path": [
 								"drinks",
+<<<<<<< HEAD
 								"4"
+=======
+								"1"
+>>>>>>> 3b5c1cf358b9908994672fcfc82b76d44d869574
 							]
 						}
 					},
 					"response": []
 				},
 				{
+<<<<<<< HEAD
 					"name": "/drinks/4",
+=======
+					"name": "/drinks/1",
+>>>>>>> 3b5c1cf358b9908994672fcfc82b76d44d869574
 					"event": [
 						{
 							"listen": "test",
@@ -336,13 +376,21 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
+<<<<<<< HEAD
 							"raw": "{{host}}/drinks/4",
+=======
+							"raw": "{{host}}/drinks/1",
+>>>>>>> 3b5c1cf358b9908994672fcfc82b76d44d869574
 							"host": [
 								"{{host}}"
 							],
 							"path": [
 								"drinks",
+<<<<<<< HEAD
 								"4"
+=======
+								"1"
+>>>>>>> 3b5c1cf358b9908994672fcfc82b76d44d869574
 							]
 						}
 					},
@@ -354,7 +402,11 @@
 				"bearer": [
 					{
 						"key": "token",
+<<<<<<< HEAD
 						"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImhiMXpjazNJTHJfYzN3ajNhbEdodyJ9.eyJpc3MiOiJodHRwczovL2Rldi16Z25oci1mMS51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWY0OWNlOWIyMDc2YTcwMDY3OGVkODhiIiwiYXVkIjoiY29mZmVlIiwiaWF0IjoxNTk4ODAyOTE0LCJleHAiOjE1OTg4MTAxMTQsImF6cCI6Ikx6b2RaODVCYXZlbUFXNFJFUHlMaWU2VldSenlDVVA5Iiwic2NvcGUiOiIiLCJwZXJtaXNzaW9ucyI6WyJnZXQ6ZHJpbmtzLWRldGFpbCJdfQ.Xy85XxSG5SR1An6-iHmOYk2ULJsW3kvMdEURodJ10kfA2grF_1Jk2XypLzvwzR64Rr8_WAzUVR1xJKVomxDHWXNm4d4NCNtXWu4HG1EjxKvX9aShl5SVfbkndlO4hlp4X8oaN2D5mONSiE3gV9J2j4YMQ277AtmSO7LXZdlW0yUfznkJVr6hDq2R-_ovquWzAhoAIJmZPpdDt1sc-AWkabvb441yPqQGU5YEID5tLXOnMOh_OPHtyMQraRlWmiLWBqFs4Camye9lng4249siU9LtwnCcjrPI7dECWKRlAnD8VJcJIKNd5ugMq9agxHUkNMfInE-mQ7oOaP6nbdv3WA",
+=======
+						"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImhiMXpjazNJTHJfYzN3ajNhbEdodyJ9.eyJpc3MiOiJodHRwczovL2Rldi16Z25oci1mMS51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWY0OWNlOWIyMDc2YTcwMDY3OGVkODhiIiwiYXVkIjoiY29mZmVlIiwiaWF0IjoxNTk4NzY5Nzc0LCJleHAiOjE1OTg3NzY5NzQsImF6cCI6Ikx6b2RaODVCYXZlbUFXNFJFUHlMaWU2VldSenlDVVA5Iiwic2NvcGUiOiIiLCJwZXJtaXNzaW9ucyI6WyJnZXQ6ZHJpbmtzLWRldGFpbCJdfQ.PHgAyA9Btnxjvm4iLiFFAnEa_YWU4nNhJbQun8kFuEAj7zj6czU9zoagJrC4svPbNVkYaHeS0MUYqmueLlLKt3Jfh8eczR8eN3Sp-Qv8AliltGARzKhvx_jjyWmUfwoAIEMzVn30IFMvn8aPoJSxXzZ1-t1o2JxQFYIIQHsqo3RrJuWf_E2-KwjPYRjVN13c7gKAQqgZP5itozYskIIlrcSRCihbL7G_5-HNHXs3xi6w4uCFWIwlYz-l5aZXTMm_N74oW9DjVuEd-_KdvVQzsR9opoSZQb9w5DgbBTn3xvTBPvEVVuixDXePyrww5pmrHPTJ1bzdlniQaKVyc0JH0g",
+>>>>>>> 3b5c1cf358b9908994672fcfc82b76d44d869574
 						"type": "string"
 					}
 				]
@@ -486,7 +538,11 @@
 						],
 						"body": {
 							"mode": "raw",
+<<<<<<< HEAD
 							"raw": "{\n    \"title\": \"Water3\",\n    \"recipe\": [{\n        \"name\": \"Water\",\n        \"color\": \"blue\",\n        \"parts\": 1\n    }]\n}"
+=======
+							"raw": "{\n    \"title\": \"Water3\",\n    \"recipe\": {\n        \"name\": \"Water\",\n        \"color\": \"blue\",\n        \"parts\": 1\n    }\n}"
+>>>>>>> 3b5c1cf358b9908994672fcfc82b76d44d869574
 						},
 						"url": {
 							"raw": "{{host}}/drinks",
@@ -501,7 +557,11 @@
 					"response": []
 				},
 				{
+<<<<<<< HEAD
 					"name": "/drinks/4",
+=======
+					"name": "/drinks/1",
+>>>>>>> 3b5c1cf358b9908994672fcfc82b76d44d869574
 					"event": [
 						{
 							"listen": "test",
@@ -527,8 +587,13 @@
 							{
 								"key": "Content-Type",
 								"name": "Content-Type",
+<<<<<<< HEAD
 								"type": "text",
 								"value": "application/json"
+=======
+								"value": "application/json",
+								"type": "text"
+>>>>>>> 3b5c1cf358b9908994672fcfc82b76d44d869574
 							}
 						],
 						"body": {
@@ -536,20 +601,32 @@
 							"raw": "{\n    \"title\": \"Water5\"\n}"
 						},
 						"url": {
+<<<<<<< HEAD
 							"raw": "{{host}}/drinks/4",
+=======
+							"raw": "{{host}}/drinks/1",
+>>>>>>> 3b5c1cf358b9908994672fcfc82b76d44d869574
 							"host": [
 								"{{host}}"
 							],
 							"path": [
 								"drinks",
+<<<<<<< HEAD
 								"4"
+=======
+								"1"
+>>>>>>> 3b5c1cf358b9908994672fcfc82b76d44d869574
 							]
 						}
 					},
 					"response": []
 				},
 				{
+<<<<<<< HEAD
 					"name": "/drinks/4",
+=======
+					"name": "/drinks/1",
+>>>>>>> 3b5c1cf358b9908994672fcfc82b76d44d869574
 					"event": [
 						{
 							"listen": "test",
@@ -568,13 +645,21 @@
 						"method": "DELETE",
 						"header": [],
 						"url": {
+<<<<<<< HEAD
 							"raw": "{{host}}/drinks/4",
+=======
+							"raw": "{{host}}/drinks/1",
+>>>>>>> 3b5c1cf358b9908994672fcfc82b76d44d869574
 							"host": [
 								"{{host}}"
 							],
 							"path": [
 								"drinks",
+<<<<<<< HEAD
 								"4"
+=======
+								"1"
+>>>>>>> 3b5c1cf358b9908994672fcfc82b76d44d869574
 							]
 						}
 					},
@@ -586,7 +671,11 @@
 				"bearer": [
 					{
 						"key": "token",
+<<<<<<< HEAD
 						"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImhiMXpjazNJTHJfYzN3ajNhbEdodyJ9.eyJpc3MiOiJodHRwczovL2Rldi16Z25oci1mMS51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWY0MzEyZjUzOGQxYTIwMDZkMjFjZDJmIiwiYXVkIjoiY29mZmVlIiwiaWF0IjoxNTk4ODAyMTM0LCJleHAiOjE1OTg4MDkzMzQsImF6cCI6Ikx6b2RaODVCYXZlbUFXNFJFUHlMaWU2VldSenlDVVA5Iiwic2NvcGUiOiIiLCJwZXJtaXNzaW9ucyI6WyJkZWxldGU6ZHJpbmtzIiwiZ2V0OmRyaW5rcy1kZXRhaWwiLCJwYXRjaDpkcmlua3MiLCJwb3N0OmRyaW5rcyJdfQ.YjrlngXbyheu58BXVxLov4TFSnI8DdZnFVYZiE0UuF5_Qf0wWzD6zpMepB_lHeYdp9wTRj5twgzHxW_uz2hF8hG5SHrfzbMQAyN6l2I7ZOxiJB9wU4lPN3q-CFVyGLom1APd0lhtUppPZh850ZUAf1g3gfgXDQi_ZPZZRwZGCvkCoR9QZic3rabe69j-2tu4cMjFLwBlyDR9tNRm7Yx3Z0jfvv_9UM-h7NfWu5j-1KTccyBSxZ6oqK890Jc9eV5BjQKoPHFCWidnHMSZ-j9P3CJCuelfn-OZcPZCiY1XuCRUrHTPEVhaRKTtINV_XbUXvZm5cLuNWNbIcU405H0edg",
+=======
+						"value": "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImhiMXpjazNJTHJfYzN3ajNhbEdodyJ9.eyJpc3MiOiJodHRwczovL2Rldi16Z25oci1mMS51cy5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWY0OWNlMjkxNDYxNjEwMDZkMjU0YTMwIiwiYXVkIjoiY29mZmVlIiwiaWF0IjoxNTk4NzY5OTcwLCJleHAiOjE1OTg3NzcxNzAsImF6cCI6Ikx6b2RaODVCYXZlbUFXNFJFUHlMaWU2VldSenlDVVA5Iiwic2NvcGUiOiIiLCJwZXJtaXNzaW9ucyI6WyJkZWxldGU6ZHJpbmtzIiwiZ2V0OmRyaW5rcy1kZXRhaWwiLCJwYXRjaDpkcmlua3MiLCJwb3N0OmRyaW5rcyJdfQ.KovWxcoDzZGL5j_2EKbXZWMGNFe-dKNvmESjqcrNLHmKVGd8TZgNWXnBYUcO6ClWSNpX4RoDAkyUIWnJPuTn0hsgR3HAw--uAXLPyIH-4Avw0zlnGNnl-4JPIO3ayXi7CLWf_-xVQ7nBieCx7E4kFRhVxtDLA5IXQdnZmBivYb9YCZi_a_qn0-js2tbeguefoyllDkiPCAvpr_2qEbg7skARYWoua83e7DH-p21ny96rqqED82hZOdng0Hwh-T0bY8EX_G2GFPnpE1v0Xmo4Dc69qOu3j43VSKdn_HYzA6_IJofo-ki2ZVmpiNQ15BR436JW-7QHUwttIz-UvchM9g",
+>>>>>>> 3b5c1cf358b9908994672fcfc82b76d44d869574
 						"type": "string"
 					}
 				]

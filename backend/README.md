@@ -40,5 +40,5 @@ export FLASK_ENV=development;
 To run the server, execute:
 
 ```bash
-flask run
+python3 -m flask run
 ```
